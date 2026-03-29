@@ -7,7 +7,7 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 ## 📁 Trabajos Prácticos Entregados
 
 ### TP 1: Sistema Experto - Empresa Constructora
-* **Archivo:** [P1_Sietemas_Expertos.ipynb](./P1_Sietemas_Expertos.ipynb)
+* **Archivo:** [P1_Sistemas_Expertos.ipynb](./P1_Sistemas_Expertos.ipynb)
 * **Descripción:** Desarrollo de un sistema experto para automatizar la evaluación de riesgos y la planificación de maquinaria en una empresa de construcción.
 * **Estado:** ✅ Completado
 
