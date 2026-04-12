@@ -12,7 +12,7 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 * **Estado:** ✅ Completado
 
 ### TP 2: Optimización de Cronograma con Algoritmos Genéticos
-* **Archivo:** [TP2_Algoritmos_Geneticos.ipynb](./TP2_Algoritmos_Geneticos.ipynb)
+* **Archivo:** [TP2_Algoritmos_Geneticos.ipynb](./P2_Algoritmos_Geneticos.ipynb)
 * **Descripción:** Implementación de un modelo de computación evolutiva para resolver el problema de optimización de recursos y tiempos (Makespan) en una obra civil.
 * **Desafío:** Planificar 10 tareas críticas respetando un límite estricto de 10 operarios simultáneos.
 * **Resultados:** * El algoritmo logró converger en un cronograma óptimo de **18 días**.
@@ -26,7 +26,8 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 * **Lenguaje:** Python 3.x
 * **Entorno:** Jupyter Notebook / Google Colab
 * **Librerías:** Pandas, NumPy.
-**Experta / Python-Constraint:** Para sistemas expertos y lógica simbólica.
+
+* **Experta / Python-Constraint:** Para sistemas expertos y lógica simbólica.
     * [cite_start]**PyGAD:** Para la implementación del motor de Algoritmos Genéticos. 
     * [cite_start]**Matplotlib:** Para la visualización de la curva de convergencia (Fitness vs. Generation).
 
