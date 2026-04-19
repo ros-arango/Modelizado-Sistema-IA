@@ -22,12 +22,12 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 
 ### TP 3: Clasificación de Riesgo Crediticio con Perceptrón
 * **Archivo:** [P3_Preceptron_simple.ipynb](./P3_Preceptron_simple.ipynb)
-* [cite_start]**Descripción:** Implementación de una neurona artificial (Perceptrón Simple) para la aprobación automatizada de créditos basada en el comportamiento financiero de los clientes[cite: 330, 331].
-* [cite_start]**Desafío:** Encontrar la frontera de decisión óptima para separar clientes de "Bajo Riesgo" y "Alto Riesgo" en un espacio bidimensional (Puntaje Crediticio vs. Ratio de Ahorro)[cite: 332].
+* **Descripción:** Implementación de una neurona artificial (Perceptrón Simple) para la aprobación automatizada de créditos basada en el comportamiento financiero de los clientes.
+* **Desafío:** Encontrar la frontera de decisión óptima para separar clientes de "Bajo Riesgo" y "Alto Riesgo" en un espacio bidimensional (Puntaje Crediticio vs. Ratio de Ahorro).
 * **Resultados:**
-    * [cite_start]El modelo alcanzó un **100% de precisión (Accuracy)**, demostrando que los datos eran linealmente separables[cite: 652].
-    * [cite_start]Se utilizó la **Función de Activación Sigmoide** para interpretar la salida como una probabilidad de aprobación entre 0 y 1[cite: 407, 409].
-    * [cite_start]Se compararon técnicas de **Regularización L1 (Lasso)** y **L2 (Ridge)**, observando cómo L1 simplifica el modelo mediante la anulación de pesos irrelevantes (Sparsity)[cite: 541, 545, 561].
+    * El modelo alcanzó un **100% de precisión (Accuracy)**, demostrando que los datos eran linealmente separables.
+    * Se utilizó la **Función de Activación Sigmoide** para interpretar la salida como una probabilidad de aprobación entre 0 y 1.
+    * Se compararon técnicas de **Regularización L1 (Lasso)** y **L2 (Ridge)**, observando cómo L1 simplifica el modelo mediante la anulación de pesos irrelevantes (Sparsity).
 * **Estado:** ✅ Completado
 
 ---
@@ -38,10 +38,10 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 * **Librerías:** Pandas, NumPy.
 
 * **Experta / Python-Constraint:** Para sistemas expertos y lógica simbólica.
-    * [cite_start]**PyGAD:** Para la implementación del motor de Algoritmos Genéticos. 
-    * [cite_start]**Matplotlib:** Para la visualización de la curva de convergencia (Fitness vs. Generation).
+    * **PyGAD:** Para la implementación del motor de Algoritmos Genéticos. 
+    * **Matplotlib:** Para la visualización de la curva de convergencia (Fitness vs. Generation).
 * ** TensorFlow / Keras: Para la construcción y entrenamiento de la arquitectura de la red neuronal.
 
-  *Scikit-Learn: Para la generación y preparación del dataset sintético.
+* **Scikit-Learn: Para la generación y preparación del dataset sintético.
 ## 👤 Datos de la Alumna
 * **Nombre:** Rosmery Ramirez
