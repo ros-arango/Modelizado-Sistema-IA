@@ -29,6 +29,17 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
     * Se utilizó la **Función de Activación Sigmoide** para interpretar la salida como una probabilidad de aprobación entre 0 y 1.
     * Se compararon técnicas de **Regularización L1 (Lasso)** y **L2 (Ridge)**, observando cómo L1 simplifica el modelo mediante la anulación de pesos irrelevantes (Sparsity).
 * **Estado:** ✅ Completado
+### TP 4: Clasificación de Ropa con Redes Neuronales Multicapa (MLP)
+* **Archivo:** [P4_RRNN_multicapa.ipynb](./P4_RRNN_multicapa.ipynb)
+* **Descripción:** Diseño de una red neuronal profunda para clasificar el dataset Fashion MNIST (28x28 píxeles).
+* **Arquitectura:**
+    * **Entrada:** Flatten (784 señales).
+    * **Ocultas:** Dos capas densas (128 y 64 neuronas) con activación **ReLU** para detectar patrones complejos.
+    * **Salida:** 10 neuronas con **Softmax** para distribución de probabilidad multiclase.
+* **Resultados:** 
+    * **Precisión en Test:** **87.76%**.
+    * **Optimización:** Uso de **Early Stopping** (patience=5) que detuvo el entrenamiento en la época 17, restaurando los mejores pesos de la época 12 para evitar el sobreajuste (overfitting).
+* **Estado:** ✅ Completado
 
 ---
 
@@ -40,8 +51,10 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
 * **Experta / Python-Constraint:** Para sistemas expertos y lógica simbólica.
     * **PyGAD:** Para la implementación del motor de Algoritmos Genéticos. 
     * **Matplotlib:** Para la visualización de la curva de convergencia (Fitness vs. Generation).
+
 * ** TensorFlow / Keras: Para la construcción y entrenamiento de la arquitectura de la red neuronal.
 
 * **Scikit-Learn: Para la generación y preparación del dataset sintético.
+* **Matplotlib: Para la visualización de las prendas clasificadas y las curvas de aprendizaje
 ## 👤 Datos de la Alumna
 * **Nombre:** Rosmery Ramirez
