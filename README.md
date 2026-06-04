@@ -41,6 +41,10 @@ Este repositorio contiene los trabajos prácticos desarrollados durante la cursa
     * **Optimización:** Uso de **Early Stopping** (patience=5) que detuvo el entrenamiento en la época 17, restaurando los mejores pesos de la época 12 para evitar el sobreajuste (overfitting).
 * **Estado:** ✅ Completado
 
+### TP5: PREDICCION 
+* **Archivo:** [P5_PLANTILLA_prediccion.ipynb](./P5_PLANTILLA_prediccion.ipynb)
+* **Descripción:**  Entrenamos un modelo lineal simple como punto de referencia
+* **Estado:** ✅ Completado
 ---
 
 ## 🔧 Tecnologías y Herramientas
